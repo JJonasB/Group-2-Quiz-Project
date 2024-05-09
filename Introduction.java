@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Introduction {
-    public Introduction() {
+    public void start() {
         textAnimation("░██████╗░██████╗░░█████╗░██╗░░░██╗██████╗░  ██████╗░");
         textAnimation("██╔════╝░██╔══██╗██╔══██╗██║░░░██║██╔══██╗  ╚════██╗");
         textAnimation("██║░░██╗░██████╔╝██║░░██║██║░░░██║██████╔╝  ░░███╔═╝");
