@@ -23,11 +23,11 @@ public class Body {
         }
 
         System.out.print("""
-                ***2. What is the basic structure of an HTML document?
+                2. What is the basic structure of an HTML document?
                - A) <html><head><body>
                - B) <head><body><html>
                - C) <body><head><html>
-               - D) <html><body><head>***
+               - D) <html><body><head>
                 Your answer:\s""");
         answer = input.next();
         if (answer.equalsIgnoreCase("A")) {
@@ -37,11 +37,11 @@ public class Body {
         }
 
         System.out.print("""
-                ***3. What are HTML elements and tags?
+                3. What are HTML elements and tags?
                - A) Elements are the opening tags, and tags are the closing tags.
                - B) Elements and tags are the same thing.
                - C) Tags define the format, and elements represent the content.
-               - D) Elements are used for styling, and tags are used for structure.***
+               - D) Elements are used for styling, and tags are used for structure.
                 Your answer:\s""");
         answer = input.next();
         if (answer.equalsIgnoreCase("C")) {
