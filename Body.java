@@ -144,12 +144,12 @@ public class Body {
         System.out.print("""
                 10. What is the purpose of the "src" attribute in HTML image tags?
                 - A) It specifies the size of the image.
-                - 😎 It defines the position of the image on the webpage.
+                - B) It defines the position of the image on the webpage.
                 - C) It specifies the source URL or file path of the image.
                 - D) It sets the background color of the image.
                 Your answer:\s""");
         answer = input.next();
-        if (answer.equalsIgnoreCase("*C*")) {
+        if (answer.equalsIgnoreCase("C")) {
             correct++;
         } else {
             input.nextLine();
@@ -165,7 +165,7 @@ public class Body {
                 - D) It creates a new HTML element with specified inner HTML content.
                 Your answer:\s""");
         answer = input.next();
-        if (answer.equalsIgnoreCase("*B*")) {
+        if (answer.equalsIgnoreCase("B")) {
             correct++;
         } else {
             input.nextLine();
@@ -180,7 +180,7 @@ public class Body {
                 - D) "==" is used for mathematical operations, while "===" is used for logical operations.
                 Your answer:\s""");
         answer = input.next();
-        if (answer.equalsIgnoreCase("*C*")) {
+        if (answer.equalsIgnoreCase("C")) {
             correct++;
         } else {
             input.nextLine();

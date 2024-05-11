@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Introduction {
+    String name;
     public void start() {
         textAnimation("░██████╗░██████╗░░█████╗░██╗░░░██╗██████╗░  ██████╗░");
         textAnimation("██╔════╝░██╔══██╗██╔══██╗██║░░░██║██╔══██╗  ╚════██╗");
@@ -10,9 +11,9 @@ public class Introduction {
         textAnimation("░╚═════╝░╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═╝░░░░░  ╚══════╝");
 
     textAnimation2("This quiz contains about three programming languages, it is all about HTML, CSS, and JAVASCRIPT.\nIt has 15 questions with multiple choice, offering 4 choices for every question.\nThere's only one correct answer, so read carefully and answer seriously.\nGood luck!\n");
-    textAnimation2("Press Enter to Continue");
+
         Scanner scan = new Scanner(System.in);
-        scan.nextLine();
+        System.out.print("Enter Your name: "); name = scan.nextLine();
     }
 
 
@@ -36,5 +37,8 @@ public class Introduction {
             System.out.println("Something interrupted the program");
         }
         System.out.println();
+    }
+    String getName() {
+        return name;
     }
 }
