@@ -3,7 +3,7 @@ public class Main {
         Introduction introduction = new Introduction();
         introduction.start();
 
-//        Body body = new Body();
+        Body body = new Body();
 
         Conclusion conclusion = new Conclusion(15, introduction.getName());
     }
