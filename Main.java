@@ -5,6 +5,6 @@ public class Main {
 
         Body body = new Body();
 
-        Conclusion conclusion = new Conclusion(15, introduction.getName());
+        Conclusion conclusion = new Conclusion(body.getCorrectAnswers(), introduction.getName());
     }
 }
